@@ -1,0 +1,20 @@
+C:\Users\nikit\source\repos\Geometric Figures\bin\Debug\netcoreapp3.1\Geometric Figures.exe
+C:\Users\nikit\source\repos\Geometric Figures\bin\Debug\netcoreapp3.1\Geometric Figures.deps.json
+C:\Users\nikit\source\repos\Geometric Figures\bin\Debug\netcoreapp3.1\Geometric Figures.runtimeconfig.json
+C:\Users\nikit\source\repos\Geometric Figures\bin\Debug\netcoreapp3.1\Geometric Figures.runtimeconfig.dev.json
+C:\Users\nikit\source\repos\Geometric Figures\bin\Debug\netcoreapp3.1\Geometric Figures.dll
+C:\Users\nikit\source\repos\Geometric Figures\bin\Debug\netcoreapp3.1\Geometric Figures.pdb
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric Figures.csprojAssemblyReference.cache
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric_Figures.Circle.resources
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric_Figures.Form1.resources
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric_Figures.Rectangle.resources
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric_Figures.Rhombus.resources
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric_Figures.Square.resources
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric_Figures.Triangle.resources
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric Figures.csproj.GenerateResource.cache
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric Figures.AssemblyInfoInputs.cache
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric Figures.AssemblyInfo.cs
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric Figures.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric Figures.dll
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric Figures.pdb
+C:\Users\nikit\source\repos\Geometric Figures\obj\Debug\netcoreapp3.1\Geometric Figures.genruntimeconfig.cache

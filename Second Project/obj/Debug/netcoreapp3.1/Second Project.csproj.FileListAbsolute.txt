@@ -1,0 +1,13 @@
+C:\Users\nikit\source\repos\Second Project\bin\Debug\netcoreapp3.1\Second Project.exe
+C:\Users\nikit\source\repos\Second Project\bin\Debug\netcoreapp3.1\Second Project.deps.json
+C:\Users\nikit\source\repos\Second Project\bin\Debug\netcoreapp3.1\Second Project.runtimeconfig.json
+C:\Users\nikit\source\repos\Second Project\bin\Debug\netcoreapp3.1\Second Project.runtimeconfig.dev.json
+C:\Users\nikit\source\repos\Second Project\bin\Debug\netcoreapp3.1\Second Project.dll
+C:\Users\nikit\source\repos\Second Project\bin\Debug\netcoreapp3.1\Second Project.pdb
+C:\Users\nikit\source\repos\Second Project\obj\Debug\netcoreapp3.1\Second Project.csprojAssemblyReference.cache
+C:\Users\nikit\source\repos\Second Project\obj\Debug\netcoreapp3.1\Second Project.AssemblyInfoInputs.cache
+C:\Users\nikit\source\repos\Second Project\obj\Debug\netcoreapp3.1\Second Project.AssemblyInfo.cs
+C:\Users\nikit\source\repos\Second Project\obj\Debug\netcoreapp3.1\Second Project.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\Second Project\obj\Debug\netcoreapp3.1\Second Project.dll
+C:\Users\nikit\source\repos\Second Project\obj\Debug\netcoreapp3.1\Second Project.pdb
+C:\Users\nikit\source\repos\Second Project\obj\Debug\netcoreapp3.1\Second Project.genruntimeconfig.cache

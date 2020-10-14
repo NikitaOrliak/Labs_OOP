@@ -1,0 +1,13 @@
+C:\Users\nikit\source\repos\First Project\obj\Debug\netcoreapp3.1\First Project.csprojAssemblyReference.cache
+C:\Users\nikit\source\repos\First Project\obj\Debug\netcoreapp3.1\First Project.AssemblyInfoInputs.cache
+C:\Users\nikit\source\repos\First Project\obj\Debug\netcoreapp3.1\First Project.AssemblyInfo.cs
+C:\Users\nikit\source\repos\First Project\obj\Debug\netcoreapp3.1\First Project.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\First Project\bin\Debug\netcoreapp3.1\First Project.exe
+C:\Users\nikit\source\repos\First Project\bin\Debug\netcoreapp3.1\First Project.deps.json
+C:\Users\nikit\source\repos\First Project\bin\Debug\netcoreapp3.1\First Project.runtimeconfig.json
+C:\Users\nikit\source\repos\First Project\bin\Debug\netcoreapp3.1\First Project.runtimeconfig.dev.json
+C:\Users\nikit\source\repos\First Project\bin\Debug\netcoreapp3.1\First Project.dll
+C:\Users\nikit\source\repos\First Project\bin\Debug\netcoreapp3.1\First Project.pdb
+C:\Users\nikit\source\repos\First Project\obj\Debug\netcoreapp3.1\First Project.dll
+C:\Users\nikit\source\repos\First Project\obj\Debug\netcoreapp3.1\First Project.pdb
+C:\Users\nikit\source\repos\First Project\obj\Debug\netcoreapp3.1\First Project.genruntimeconfig.cache

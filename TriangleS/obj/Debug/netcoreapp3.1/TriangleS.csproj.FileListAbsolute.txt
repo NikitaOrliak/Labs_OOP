@@ -1,0 +1,15 @@
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.csprojAssemblyReference.cache
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.Form1.resources
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.csproj.GenerateResource.cache
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.AssemblyInfoInputs.cache
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.AssemblyInfo.cs
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\TriangleS\bin\Debug\netcoreapp3.1\TriangleS.exe
+C:\Users\nikit\source\repos\TriangleS\bin\Debug\netcoreapp3.1\TriangleS.deps.json
+C:\Users\nikit\source\repos\TriangleS\bin\Debug\netcoreapp3.1\TriangleS.runtimeconfig.json
+C:\Users\nikit\source\repos\TriangleS\bin\Debug\netcoreapp3.1\TriangleS.runtimeconfig.dev.json
+C:\Users\nikit\source\repos\TriangleS\bin\Debug\netcoreapp3.1\TriangleS.dll
+C:\Users\nikit\source\repos\TriangleS\bin\Debug\netcoreapp3.1\TriangleS.pdb
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.dll
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.pdb
+C:\Users\nikit\source\repos\TriangleS\obj\Debug\netcoreapp3.1\TriangleS.genruntimeconfig.cache

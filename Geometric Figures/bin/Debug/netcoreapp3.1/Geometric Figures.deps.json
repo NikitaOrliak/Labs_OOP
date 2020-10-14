@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Geometric Figures/1.0.0": {
+        "runtime": {
+          "Geometric Figures.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Geometric Figures/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

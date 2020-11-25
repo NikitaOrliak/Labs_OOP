@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikit\\source\\repos\\Geometric Figures\\Geometric Figures.csproj",
+      "projectUniqueName": "C:\\Users\\nikit\\source\\repos\\dz4\\Geometric Figures\\Geometric Figures.csproj",
       "projectName": "Geometric Figures",
-      "projectPath": "C:\\Users\\nikit\\source\\repos\\Geometric Figures\\Geometric Figures.csproj",
+      "projectPath": "C:\\Users\\nikit\\source\\repos\\dz4\\Geometric Figures\\Geometric Figures.csproj",
       "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikit\\source\\repos\\Geometric Figures\\obj\\",
+      "outputPath": "C:\\Users\\nikit\\source\\repos\\dz4\\Geometric Figures\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",

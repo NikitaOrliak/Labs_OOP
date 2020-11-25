@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikit\\source\\repos\\Triangle\\Triangle.csproj",
+      "projectUniqueName": "C:\\Users\\nikit\\source\\repos\\dz4\\Triangle\\Triangle.csproj",
       "projectName": "Triangle",
-      "projectPath": "C:\\Users\\nikit\\source\\repos\\Triangle\\Triangle.csproj",
+      "projectPath": "C:\\Users\\nikit\\source\\repos\\dz4\\Triangle\\Triangle.csproj",
       "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikit\\source\\repos\\Triangle\\obj\\",
+      "outputPath": "C:\\Users\\nikit\\source\\repos\\dz4\\Triangle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",

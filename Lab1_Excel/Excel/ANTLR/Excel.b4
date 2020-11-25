@@ -1,0 +1,48 @@
+﻿grammar Excel;
+
+
+compileUnit : expression EOF;
+
+/*
+* Parser Rules
+*/
+
+expression :
+
+	LPAREN expression RPAREN #ParenthesizedExpr
+	| operatorToken = (MIN | MAX) LPAREN expression DESP expression RPAREN #MinMaxExpr
+	| operatorToken = (INC | DEC) LPAREN expression RPAREN #IncDec 
+	| expression operatorToken = POW expression #Power
+	| expression operatorToken = (MULTIPLY | DIVIDE) expression #MultiplicativeExpr
+	| expression operatorToken = (ADD | SUBTRACT) expression #AdditiveExpr
+	| NUMBER #NumberExpr
+	| IDENTIFIER #IdentifierExpr
+	;
+
+
+/*
+* Lexer Rules
+*/
+
+NUMBER     :   INT ('.'INT)?;
+IDENTIFIER :   [A-Z]+[1-9][0-9]+;
+
+INT        :   ('0'..'9')+;
+
+MULTIPLY   :   '*';
+DIVIDE     :   '/';
+SUBTRACT   :   '-';
+ADD        :   '+';
+LPAREN     :   '(';
+RPAREN     :   ')';
+DESP       :   ',';
+INC        :   'inc';
+DEC        :   'dec';
+POW        :   '^';
+MIN        :   'min';
+MAX        :   'max';
+
+
+WS         :   [\t\r\n] -> channel(HIDDEN);
+
+

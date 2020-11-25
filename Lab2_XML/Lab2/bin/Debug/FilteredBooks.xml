@@ -1,0 +1,15 @@
+<catalog>
+  <book id="bk113">
+    <author>Mike Galos</author>
+    <title>Visual Studio 8: A Comprehensive Guide</title>
+    <genre>Computer</genre>
+    <price>26,7</price>
+    <publishYear>2005</publishYear>
+    <description>
+      Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are
+      integrated into a comprehensive development
+      environment.
+    </description>
+  </book>
+</catalog>

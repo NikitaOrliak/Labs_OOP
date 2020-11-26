@@ -16,20 +16,18 @@ namespace Excel.Tests
         {
 
             {
-                string actual = "min (0,4) + 2 * ( 1 + 30 mod (49 div 3)) * max(3,2) + 21 div 2";
-                actual = actual.Replace(" ", "");
-                string expected = "100";
-                Assert.AreEqual(expected, Calculator.Evaluate(actual));
-            }
-
-
-            {
                 string actual = "max(3 , 5) * min (3 , 5)";
                 actual = actual.Replace(" ", "");
                 string expected = "15";
                 Assert.AreEqual(expected, Calculator.Evaluate(actual));
             }
 
+            {
+                string actual = "min (0,4) + 2 * ( 1 + 30 + inc((49 + dec(3)))) * max(3,2) + 21 inc(2)";
+                actual = actual.Replace(" ", "");
+                string expected = "100";
+                Assert.AreEqual(expected, Calculator.Evaluate(actual));
+            }
 
             {
                 string actual = "-(-1)";
@@ -40,7 +38,7 @@ namespace Excel.Tests
 
 
             {
-                string actual = "3 * 5 mod 4";
+                string actual = "3 * 5 * inc(4)";
                 actual = actual.Replace(" ", "");
                 string expected = "3";
                 Assert.AreEqual(expected, Calculator.Evaluate(actual));

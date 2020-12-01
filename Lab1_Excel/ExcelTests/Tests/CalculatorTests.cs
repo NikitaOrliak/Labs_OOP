@@ -23,9 +23,9 @@ namespace Excel.Tests
             }
 
             {
-                string actual = "min (0,4) + 2 * ( 1 + 30 + inc((49 + dec(3)))) * max(3,2) + 21 inc(2)";
+                string actual = "inc(2) * (1 + 30 + inc((49 + dec(3)))) - 21 * dec(2)";
                 actual = actual.Replace(" ", "");
-                string expected = "100";
+                string expected = "148";
                 Assert.AreEqual(expected, Calculator.Evaluate(actual));
             }
 
@@ -40,7 +40,7 @@ namespace Excel.Tests
             {
                 string actual = "3 * 5 * inc(4)";
                 actual = actual.Replace(" ", "");
-                string expected = "3";
+                string expected = "75";
                 Assert.AreEqual(expected, Calculator.Evaluate(actual));
             }
 
@@ -51,7 +51,7 @@ namespace Excel.Tests
                 actual = actual.Replace(" ", "");
                 string expected = Calculator.Evaluate(actual);
 
-                Assert.Fail(); // якщо не було exception
+                Assert.Fail(); 
             }
             catch (DivideByZeroException)
             {

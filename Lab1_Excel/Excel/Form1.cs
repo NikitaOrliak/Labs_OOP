@@ -50,6 +50,7 @@ namespace Excel
 
         private void AddRowButton_Click(object sender, EventArgs e)
         {
+            gridWasntSaved = true;
             int size = ++Excel.RowCount;
             string columnsName;
 
@@ -70,6 +71,7 @@ namespace Excel
 
         private void RemoveRowButton_Click(object sender, EventArgs e)
         {
+            gridWasntSaved = true;
             if (Excel.RowCount > 1)
             {
                 if (RemoveColumnOrRow(false, Excel.ColumnCount)) // якщо немає залежностей, то все ок і видаляємо комірки з словника
@@ -80,7 +82,7 @@ namespace Excel
 
         private void AddColumnButton_Click(object sender, EventArgs e)
         {
-
+            gridWasntSaved = true;
             int size = ++Excel.ColumnCount;
             string columnsName = _26Converter.ConvertTo26(size);
 
@@ -97,6 +99,7 @@ namespace Excel
 
         private void RemoveColumnButton_Click(object sender, EventArgs e)
         {
+            gridWasntSaved = true;
             if (Excel.ColumnCount > 1)
             {
                 if (RemoveColumnOrRow(true, Excel.RowCount)) // якщо немає залежностей, то все ок і видаляємо комірки з словника
@@ -116,6 +119,7 @@ namespace Excel
 
         private void EvaluateButton_Click(object sender, EventArgs e)
         {
+            gridWasntSaved = true;
             Cell cell = GetSelectedCell();
             var cellsToBeChanged  = cell.SetCell(InputTexbox.Text); // змінюємо комірку і отримуємо List залежних від неї
 
@@ -155,6 +159,7 @@ namespace Excel
 
         private bool RemoveColumnOrRow (bool removeColumn , int size)
         {
+            gridWasntSaved = true;
             string fullName;
             bool OK = true;
             Cell cell;
@@ -202,27 +207,35 @@ namespace Excel
         }
 
 
-
-
         private void LoadButton_Click(object sender, EventArgs e)
         {
-            if (gridWasntSaved)
-            {
-                DialogResult dialogResult = MessageBox.Show("You dont save your grid." +
-                    "Continue?",
-                "Load", MessageBoxButtons.YesNo);
-            }
-
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "TXT File|*.txt";
             openFileDialog.Title = "Grid opening";
             openFileDialog.RestoreDirectory = true;
 
+            if (gridWasntSaved)
+            {
+                DialogResult dialogResult = MessageBox.Show("You dont save your grid." +
+                    "Continue?",
+                "Load", MessageBoxButtons.YesNo);
 
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
-                Grid.OpenGrid(openFileDialog.FileName, Excel);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
+                        Grid.OpenGrid(openFileDialog.FileName, Excel);
+                }
+
+            }
+
+            else
+            {
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    Grid.OpenGrid(openFileDialog.FileName, Excel);
+            }
         }
 
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
@@ -236,16 +249,6 @@ namespace Excel
                     e.Cancel = true;
                 }
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Excel_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

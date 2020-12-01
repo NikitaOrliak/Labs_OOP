@@ -51,8 +51,8 @@
             // 
             // ClearButton
             // 
-            this.ClearButton.Location = new System.Drawing.Point(398, 324);
-            this.ClearButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ClearButton.Location = new System.Drawing.Point(195, 362);
+            this.ClearButton.Margin = new System.Windows.Forms.Padding(2);
             this.ClearButton.Name = "ClearButton";
             this.ClearButton.Size = new System.Drawing.Size(106, 36);
             this.ClearButton.TabIndex = 0;
@@ -62,8 +62,8 @@
             // 
             // ToHTMLButton
             // 
-            this.ToHTMLButton.Location = new System.Drawing.Point(398, 364);
-            this.ToHTMLButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ToHTMLButton.Location = new System.Drawing.Point(441, 364);
+            this.ToHTMLButton.Margin = new System.Windows.Forms.Padding(2);
             this.ToHTMLButton.Name = "ToHTMLButton";
             this.ToHTMLButton.Size = new System.Drawing.Size(106, 34);
             this.ToHTMLButton.TabIndex = 1;
@@ -73,8 +73,8 @@
             // 
             // SearchButton
             // 
-            this.SearchButton.Location = new System.Drawing.Point(513, 324);
-            this.SearchButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchButton.Location = new System.Drawing.Point(318, 362);
+            this.SearchButton.Margin = new System.Windows.Forms.Padding(2);
             this.SearchButton.Name = "SearchButton";
             this.SearchButton.Size = new System.Drawing.Size(106, 36);
             this.SearchButton.TabIndex = 2;
@@ -86,8 +86,8 @@
             // 
             this.SaxRadioButton.AutoSize = true;
             this.SaxRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SaxRadioButton.Location = new System.Drawing.Point(431, 48);
-            this.SaxRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SaxRadioButton.Location = new System.Drawing.Point(430, 27);
+            this.SaxRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.SaxRadioButton.Name = "SaxRadioButton";
             this.SaxRadioButton.Size = new System.Drawing.Size(46, 17);
             this.SaxRadioButton.TabIndex = 3;
@@ -99,8 +99,8 @@
             // 
             this.DomRadioButton.AutoSize = true;
             this.DomRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DomRadioButton.Location = new System.Drawing.Point(497, 48);
-            this.DomRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DomRadioButton.Location = new System.Drawing.Point(497, 27);
+            this.DomRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.DomRadioButton.Name = "DomRadioButton";
             this.DomRadioButton.Size = new System.Drawing.Size(50, 17);
             this.DomRadioButton.TabIndex = 4;
@@ -112,8 +112,8 @@
             // 
             this.LinqRadioButton.AutoSize = true;
             this.LinqRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LinqRadioButton.Location = new System.Drawing.Point(570, 48);
-            this.LinqRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LinqRadioButton.Location = new System.Drawing.Point(564, 27);
+            this.LinqRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.LinqRadioButton.Name = "LinqRadioButton";
             this.LinqRadioButton.Size = new System.Drawing.Size(49, 17);
             this.LinqRadioButton.TabIndex = 5;
@@ -125,8 +125,8 @@
             // 
             this.AuthorCheckBox.AutoSize = true;
             this.AuthorCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.AuthorCheckBox.Location = new System.Drawing.Point(398, 155);
-            this.AuthorCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AuthorCheckBox.Location = new System.Drawing.Point(564, 140);
+            this.AuthorCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.AuthorCheckBox.Name = "AuthorCheckBox";
             this.AuthorCheckBox.Size = new System.Drawing.Size(63, 17);
             this.AuthorCheckBox.TabIndex = 6;
@@ -137,8 +137,8 @@
             // 
             this.TitleCheckBox.AutoSize = true;
             this.TitleCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TitleCheckBox.Location = new System.Drawing.Point(398, 180);
-            this.TitleCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TitleCheckBox.Location = new System.Drawing.Point(564, 184);
+            this.TitleCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.TitleCheckBox.Name = "TitleCheckBox";
             this.TitleCheckBox.Size = new System.Drawing.Size(51, 17);
             this.TitleCheckBox.TabIndex = 7;
@@ -149,8 +149,8 @@
             // 
             this.GenreCheckBox.AutoSize = true;
             this.GenreCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GenreCheckBox.Location = new System.Drawing.Point(398, 205);
-            this.GenreCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GenreCheckBox.Location = new System.Drawing.Point(564, 225);
+            this.GenreCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.GenreCheckBox.Name = "GenreCheckBox";
             this.GenreCheckBox.Size = new System.Drawing.Size(60, 17);
             this.GenreCheckBox.TabIndex = 8;
@@ -161,8 +161,8 @@
             // 
             this.PriceCheckBox.AutoSize = true;
             this.PriceCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PriceCheckBox.Location = new System.Drawing.Point(398, 230);
-            this.PriceCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PriceCheckBox.Location = new System.Drawing.Point(564, 270);
+            this.PriceCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.PriceCheckBox.Name = "PriceCheckBox";
             this.PriceCheckBox.Size = new System.Drawing.Size(55, 17);
             this.PriceCheckBox.TabIndex = 9;
@@ -173,8 +173,8 @@
             // 
             this.PublishYearCheckBox.AutoSize = true;
             this.PublishYearCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PublishYearCheckBox.Location = new System.Drawing.Point(398, 260);
-            this.PublishYearCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PublishYearCheckBox.Location = new System.Drawing.Point(564, 312);
+            this.PublishYearCheckBox.Margin = new System.Windows.Forms.Padding(2);
             this.PublishYearCheckBox.Name = "PublishYearCheckBox";
             this.PublishYearCheckBox.Size = new System.Drawing.Size(95, 17);
             this.PublishYearCheckBox.TabIndex = 10;
@@ -185,8 +185,8 @@
             // 
             this.PublishYearComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PublishYearComboBox.FormattingEnabled = true;
-            this.PublishYearComboBox.Location = new System.Drawing.Point(497, 256);
-            this.PublishYearComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PublishYearComboBox.Location = new System.Drawing.Point(411, 312);
+            this.PublishYearComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.PublishYearComboBox.Name = "PublishYearComboBox";
             this.PublishYearComboBox.Size = new System.Drawing.Size(116, 21);
             this.PublishYearComboBox.TabIndex = 11;
@@ -195,8 +195,8 @@
             // 
             this.PriceComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.PriceComboBox.FormattingEnabled = true;
-            this.PriceComboBox.Location = new System.Drawing.Point(497, 228);
-            this.PriceComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PriceComboBox.Location = new System.Drawing.Point(411, 270);
+            this.PriceComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.PriceComboBox.Name = "PriceComboBox";
             this.PriceComboBox.Size = new System.Drawing.Size(116, 21);
             this.PriceComboBox.TabIndex = 12;
@@ -205,8 +205,8 @@
             // 
             this.GenreComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.GenreComboBox.FormattingEnabled = true;
-            this.GenreComboBox.Location = new System.Drawing.Point(497, 203);
-            this.GenreComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GenreComboBox.Location = new System.Drawing.Point(411, 223);
+            this.GenreComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.GenreComboBox.Name = "GenreComboBox";
             this.GenreComboBox.Size = new System.Drawing.Size(116, 21);
             this.GenreComboBox.TabIndex = 13;
@@ -215,8 +215,8 @@
             // 
             this.TitleComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.TitleComboBox.FormattingEnabled = true;
-            this.TitleComboBox.Location = new System.Drawing.Point(497, 178);
-            this.TitleComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TitleComboBox.Location = new System.Drawing.Point(411, 180);
+            this.TitleComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.TitleComboBox.Name = "TitleComboBox";
             this.TitleComboBox.Size = new System.Drawing.Size(116, 21);
             this.TitleComboBox.TabIndex = 14;
@@ -225,8 +225,8 @@
             // 
             this.AuthorComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.AuthorComboBox.FormattingEnabled = true;
-            this.AuthorComboBox.Location = new System.Drawing.Point(497, 153);
-            this.AuthorComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AuthorComboBox.Location = new System.Drawing.Point(411, 136);
+            this.AuthorComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.AuthorComboBox.Name = "AuthorComboBox";
             this.AuthorComboBox.Size = new System.Drawing.Size(116, 21);
             this.AuthorComboBox.TabIndex = 15;
@@ -234,7 +234,7 @@
             // richTextBox
             // 
             this.richTextBox.Location = new System.Drawing.Point(11, 38);
-            this.richTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox.Name = "richTextBox";
             this.richTextBox.Size = new System.Drawing.Size(302, 295);
             this.richTextBox.TabIndex = 16;
@@ -242,8 +242,8 @@
             // 
             // OpenXML
             // 
-            this.OpenXML.Location = new System.Drawing.Point(461, 87);
-            this.OpenXML.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.OpenXML.Location = new System.Drawing.Point(460, 64);
+            this.OpenXML.Margin = new System.Windows.Forms.Padding(2);
             this.OpenXML.Name = "OpenXML";
             this.OpenXML.Size = new System.Drawing.Size(128, 37);
             this.OpenXML.TabIndex = 17;
@@ -253,8 +253,8 @@
             // 
             // OpenHTML
             // 
-            this.OpenHTML.Location = new System.Drawing.Point(513, 364);
-            this.OpenHTML.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.OpenHTML.Location = new System.Drawing.Point(561, 364);
+            this.OpenHTML.Margin = new System.Windows.Forms.Padding(2);
             this.OpenHTML.Name = "OpenHTML";
             this.OpenHTML.Size = new System.Drawing.Size(106, 34);
             this.OpenHTML.TabIndex = 18;
@@ -287,9 +287,9 @@
             this.Controls.Add(this.SearchButton);
             this.Controls.Add(this.ToHTMLButton);
             this.Controls.Add(this.ClearButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
-            this.Text = "ReadXml";
+            this.Text = "Orliak";
             this.ResumeLayout(false);
             this.PerformLayout();
 

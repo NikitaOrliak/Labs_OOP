@@ -31,7 +31,7 @@ namespace Lab2
             return _books;
         }
 
-        private void SetBook(XmlReader reader , string id) // если поменять порядок вызова метода, все поломается :)
+        private void SetBook(XmlReader reader , string id) // если поменять порядок вызова метода, все поломается
         {
             _books[id].Author = GoToNextText(reader); 
             _books[id].Title  = GoToNextText(reader);

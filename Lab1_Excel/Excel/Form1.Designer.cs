@@ -47,6 +47,9 @@
             // 
             this.Excel.AllowUserToAddRows = false;
             this.Excel.AllowUserToDeleteRows = false;
+            this.Excel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Excel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Excel.Location = new System.Drawing.Point(-1, 82);
             this.Excel.Margin = new System.Windows.Forms.Padding(2);
@@ -57,7 +60,6 @@
             this.Excel.Size = new System.Drawing.Size(763, 338);
             this.Excel.TabIndex = 0;
             this.Excel.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Excel_CellClick);
-            this.Excel.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Excel_CellContentClick);
             // 
             // InputTexbox
             // 
@@ -196,7 +198,6 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Excel";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Excel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

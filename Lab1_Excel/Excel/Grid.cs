@@ -84,7 +84,7 @@ namespace Excel
             }
             catch
             {
-                MessageBox.Show("Something wrong with your file :c");
+                MessageBox.Show("Something wrong with your file");
                 return;
             }
 
@@ -106,11 +106,18 @@ namespace Excel
                     cells[name].EvaluatingExpression = expression.Replace(" ", "");
                 }
 
-                ConnectCellsWithEachOther(excel);
+
+                try
+                {
+                    ConnectCellsWithEachOther(excel);
+                    ShowGrid(excel);
+                    Form1.gridWasntSaved = false;
+                }
+                catch { cells.Clear(); }
             }
         }
 
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         public static void SetGrid(string columns , string rows , DataGridView excel)
         {
@@ -128,7 +135,7 @@ namespace Excel
 
 
 
-        private static void ConnectCellsWithEachOther (DataGridView excel) // відновляємо зв'язки між комірками та виводимо
+        private static void ConnectCellsWithEachOther(DataGridView excel) // відновляємо зв'язки між комірками та виводимо
         {
             foreach (Cell cell in cells.Values)
             {
@@ -141,12 +148,20 @@ namespace Excel
                 }
             }
 
+            foreach (Cell cell in cells.Values.ToArray())
+            {
+                cell.SetCell(cell.RealExpression);
+            }
+        }
+
+        private static void ShowGrid(DataGridView excel)
+        {
             for (int i = 0; i < excel.ColumnCount; ++i) // виводимо всі ініціалізовані комірки
             {
                 for (int j = 0; j < excel.RowCount; ++j)
                 {
                     Cell cell = cells[_26Converter.ConvertTo26(i + 1) + (j + 1)];
-                    excel[i, j].Value = (cell.RealExpression == "")   ?   ""   :  cell.Value.ToString();
+                    excel[i, j].Value = (cell.RealExpression == "") ? "" : cell.Value.ToString();
                 }
             }
         }

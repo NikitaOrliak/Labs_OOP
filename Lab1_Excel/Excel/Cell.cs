@@ -52,13 +52,14 @@ namespace Excel
             Value = 0;
         }
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        public List<Cell> SetCell (string expr)
+        public List<Cell> SetCell(string expr)
         {
             PossibleIDependOnCells.Clear();
             EvaluatingExpression = expr.Replace(" ", ""); // з виразу прибираємо всі пробіли            
-            
-            try 
+
+            try
             {
                 Calculator.changingCell = this;
                 string result = Calculator.Evaluate(EvaluatingExpression);  // тут можливий exception
@@ -72,6 +73,13 @@ namespace Excel
                 return EditDependencies();
             }
 
+            catch (MyExceptions.LoopException e)
+            {
+                MessageBox.Show(e.Message);
+                Value = 0;
+                return CellsDependentOnMe;
+            }
+
             catch (Exception e)
             {
                 MessageBox.Show(e.Message);
@@ -80,17 +88,16 @@ namespace Excel
             return null;
         }
 
-
         private bool CheckLoop()
         {
-            bool loop = false;          
+            bool loop = false;
 
             // Був, наприклад, вираз: A1 + B2. Ми не знаємо, чи є тут цикл (A3 зсилається на A1, а A1 на A3), тому, 
             // поки що змінювана комірка МОЖЛИВО залежить від A1 і B2 
-            foreach (Cell cell in PossibleIDependOnCells)    
-            {                
+            foreach (Cell cell in PossibleIDependOnCells)
+            {
                 if (cell.Name == Name) // якщо комірка зсилається сама на себе
-                { 
+                {
                     loop = true;
                     break;
                 }
@@ -100,7 +107,7 @@ namespace Excel
 
             CheckLoopInDependOnMeCells(CellsDependentOnMe);
             // рекурсивно проходимось по дереву залежностей. Якщо комірка, від якої залежить наша == комірці, яка залежить від нашої, тоді є цикл
-            void CheckLoopInDependOnMeCells(List<Cell> dependOnMeCells) 
+            void CheckLoopInDependOnMeCells(List<Cell> dependOnMeCells)
             {
                 for (int i = 0; i < dependOnMeCells.Count && !loop; ++i)
                 {
@@ -117,9 +124,28 @@ namespace Excel
                 }
             }
 
+            if (loop)
+                ShowException(CellsDependentOnMe);
+
             return loop;
         }
 
+        private void ShowException(List<Cell> dependOnMeCells)
+        {
+            for (int i = 0; i < dependOnMeCells.Count; ++i)
+            {
+                dependOnMeCells[i].Value = 0;
+
+                foreach (Cell IDependOnCell in PossibleIDependOnCells)
+                {
+                    IDependOnCell.Value = 0;
+                }
+
+                ShowException(dependOnMeCells[i].CellsDependentOnMe);
+            }
+        }
+
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private List<Cell> EditDependencies()
         {

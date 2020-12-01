@@ -30,7 +30,7 @@ namespace Excel.Tests
 
             catch
             {
-                Assert.Fail(); // всі exception повинні зловитись у самого класа Cell
+                Assert.Fail(); 
             }
         }
     }
